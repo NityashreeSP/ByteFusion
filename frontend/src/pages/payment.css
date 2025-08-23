@@ -1,0 +1,151 @@
+/* ======== UPI & OTP Fraud Section (Red & Black Theme) ======== */
+.upiotp {
+  background: linear-gradient(-45deg, #1a1a1a, #000000, #1a1a1a, #000000);
+  background-size: 400% 400%;
+  padding: 60px 20px;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  animation: gradientBGUpi 20s ease infinite;
+}
+
+@keyframes gradientBGUpi {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.upiotp .container-upiotp {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Heading */
+.heading-upiotp {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff3b3b;
+  text-shadow: 0 0 8px #ff4d4d, 0 0 20px #ff1a1a;
+  margin-bottom: 15px;
+}
+
+/* Quote / Caution Statement */
+.quote-upiotp {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #ff6666;
+  margin-bottom: 40px;
+  text-shadow: 0 0 4px #ff4d4d, 0 0 12px #ff1a1a;
+}
+
+/* Scam Card */
+.scam-card-upiotp {
+  background: #1a1a1a;
+  border: 1px solid #330000;
+  padding: 30px 25px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.25);
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateY(25px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.scam-card-upiotp:hover {
+  transform: translateY(-10px) scale(1.03);
+  background: #2a0000; /* lighter red tint */
+  box-shadow: 0 15px 35px rgba(255, 0, 0, 0.5);
+  border-color: #ff1a1a;
+}
+
+/* Card Headings */
+.scam-card-upiotp h2 {
+  color: #ff3b3b;
+  margin-bottom: 12px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-shadow: 0 0 6px #ff4d4d;
+}
+
+/* Card Text */
+.scam-card-upiotp p {
+  color: #f0f0f0;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* Red Flags */
+.scam-card-upiotp h3 {
+  color: #ff6666;
+  margin: 15px 0 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 0 0 4px #ff4d4d;
+}
+
+.scam-card-upiotp ul li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+  color: #ff9999;
+}
+
+.scam-card-upiotp ul li::before {
+  content: "⚠";
+  position: absolute;
+  left: 0;
+  color: #ff3b3b;
+  font-weight: bold;
+  text-shadow: 0 0 6px #ff6666;
+}
+
+.report-btn-upiotp {
+  display: block; /* makes margin auto work */
+  width: fit-content; /* button shrinks to content */
+  margin: 40px auto 0 auto; /* center horizontally with some top margin */
+  padding: 12px 28px; /* original small size */
+  background: #dc2626; /* strong red */
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+  text-align: center; /* keeps text centered inside */
+}
+
+.report-btn-upiotp:hover {
+  background: #b91c1c; /* darker red */
+  box-shadow: 0 6px 25px rgba(185, 28, 28, 0.6);
+  transform: translateY(-2px);
+}
+/* Report Button */
+/* .report-btn-upiotp {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #ff1a1a;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+   display: block; /* allows margin auto to work */
+  /* text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+} */
+
+/* .report-btn-upiotp:hover {
+  background: #ff4d4d;
+  box-shadow: 0 6px 25px rgba(255, 77, 77, 0.6);
+  transform: translateY(-3px) scale(1.05);
+/* } */ 
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}

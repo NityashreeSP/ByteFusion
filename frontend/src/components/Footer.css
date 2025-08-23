@@ -1,0 +1,33 @@
+.cyber-footer {
+  
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  border-top: 2px solid #6a5acd;
+  margin-top: 40px;
+}
+
+.footer-content h4 {
+  font-size: 18px;
+  color: #facc15; /* Yellow for highlight */
+  margin-bottom: 8px;
+}
+
+.footer-content a {
+  color: #38bdf8; /* Light blue link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+  color: #60a5fa;
+}
+
+.footer-tips {
+  margin-top: 8px;
+  font-style: italic;
+  color: #d1d5db; /* Light gray */
+}

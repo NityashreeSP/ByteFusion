@@ -1,0 +1,70 @@
+{
+  "signup": {
+    "title": "Create Your Account",
+    "subtitle": "Join us and learn to fight cyber threats.",
+    "fullName": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "Must be at least 6 characters long",
+    "terms": "I agree to the Terms of Service and Privacy Policy",
+    "createAccount": "Create Account",
+    "alreadyAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "securityNote": "Your Security Matters: We never share your data with anyone.",
+    "loading": "Creating..."
+  },
+  "login": {
+    "welcomeBack": "Welcome Back!",
+    "welcomeMessage": "Sign in to continue your journey of learning and security.",
+    "title": "Sign In",
+    "subtitle": "Access your account securely",
+    "loginError": "An error occurred during login.",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "signInButton": "Sign In",
+    "noAccount": "Don't have an account?",
+    "createOne": "Create One",
+    "staySafe": "Stay Safe: We never share your credentials."
+  },
+  
+  "dashboard": {
+    "chooseCategory": "Choose Your Category",
+    "selectCategory": "Select a category to personalize your experience and explore tailored content.",
+    "quizButton": "🛡 Test Your Cyber Awareness",
+    "chatButton": "Chat with Friends",
+    "categories": {
+      "students": {
+        "label": "Students",
+        "description": "Explore resources to boost your learning journey."
+      },
+      "professionals": {
+        "label": "Professionals",
+        "description": "Grow your skills with advanced tools & insights."
+      },
+      "homemakers": {
+        "label": "Homemakers",
+        "description": "Discover tips and solutions for a better home life."
+      },
+      "ruralUsers": {
+        "label": "Rural Users",
+        "description": "Connect with opportunities for rural development."
+      },
+      "seniorCitizens": {
+        "label": "Senior Citizens",
+        "description": "Stay informed and empowered in your golden years."
+      },
+      "upiUsers": {
+        "label": "UPI Users",
+        "description": "Return to the main dashboard."
+      }
+    }
+  }
+  
+
+  }
+
+
+
+
